@@ -1,0 +1,47 @@
+.ingredients {
+  gap: 1.3rem;
+}
+
+.ingredients__title {
+  color: var(--dark);
+  font-size: 1.4rem;
+  font-family: var(--ff-playfair);
+}
+
+.ingredients__container {
+  gap: 1.1rem;
+
+  padding: 0 0 1rem 0;
+}
+
+.ingredients__subtitle {
+  color: var(--light-dark);
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-family: var(--ff-playfair);
+}
+
+.ingredients__ingredient {
+  display: flex;
+  gap: .5rem;
+}
+
+.ingredients__icon {
+  border: 1px solid var(--light-dark);
+  border-radius: .2rem;
+  color: var(--body);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: .1rem 0 0 0;
+  transition: .3s;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.ingredients__paragraph {
+  flex: 2;
+
+  font-size: .9rem;
+  line-height: 1.2rem;
+  max-width: 27rem;
+}

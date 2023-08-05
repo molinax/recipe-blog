@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  /* Colors */
+  --dark: #333333;
+  --light-dark: #4F4F4F;
+  --gray: #BDBDBD;
+  --orange: #F2994A;
+  --body: #FAFAFA;
+
+  /* Font family */
+  --ff-playfair: 'Playfair Display', serif;
+  --ff-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--body);
+  color: var(--light-dark);
+  font-family: var(--ff-montserrat);
+}
+
+.wrapper {
+  margin-inline: auto;
+  max-width: 900px;
+  padding: 1.7rem 0;
+  width: 95%;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  gap: 1.3rem;
+  margin: 2rem 0;
+}
+
+.main__container-body {
+  gap: 1rem;
+  flex: 4;
+}
+
+.cheesecake {
+  border-radius: .8rem;
+  object-fit: cover;
+  width: 100%;
+  max-height: 26rem;
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 17px;
+  }
+  
+  .main__container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
